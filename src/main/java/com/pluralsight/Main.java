@@ -1,10 +1,10 @@
 package com.pluralsight;
 
-import com.pluralsight.UserInterface.UI;
+import com.pluralsight.UI.UserInterface;
 
 public class Main {
     public static void main(String[] args) {
-        UI ui = new UI();
+        UserInterface ui = new UserInterface();
         ui.display();
 
         }
